@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_test",
+  "version": "1.0.0",
+  "description": "HELLO WORLD!!!111TESTEST\r 안녕하세요",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an-seung-kyu/nodejs_test.git"
+  },
+  "author": "an-seung-kyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an-seung-kyu/nodejs_test/issues"
+  },
+  "homepage": "https://github.com/an-seung-kyu/nodejs_test#readme",
+  "dependencies": {
+    "steem": "^0.7.7"
+  }
+}
