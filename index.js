@@ -28,6 +28,6 @@ app.use(methodOverride("_method"));
 app.use("/", require("./routes/home"));
 
 // Port setting
-app.listen(3000, function(){
+app.listen(3001, function(){
   console.log("server on! http://localhost:"+port);
 });
