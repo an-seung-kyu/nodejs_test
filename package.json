@@ -1,7 +1,7 @@
 {
   "name": "nodejs_test",
   "version": "1.0.0",
-  "description": "HELLO WORLD!!!111TESTEST\r 안녕하세요",
+  "description": "NODEJS_TEST",
   "main": "app.js",
   "scripts": {
     "test": "test"
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/an-seung-kyu/nodejs_test#readme",
   "dependencies": {
     "steem": "^0.7.7"
-  }
+  },
+  "dependencies":
+    {
+      "express": "~4.13.1",
+      "ejs": "~2.4.1"    ,
+      "body-parser": "~1.14.2",
+      "express-session": "~1.13.0"
+    }
 }
