@@ -5,7 +5,7 @@ var methodOverride = require("method-override");
 var app = express();
 
 // DB setting
-mongoose.set('useNewUrlParser', true);
+/*mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.connect(process.env.MONGO_DB);
@@ -15,7 +15,7 @@ db.once("open", function(){
 });
 db.on("error", function(err){
   console.log("DB ERROR : ", err);
-});
+});*/
 
 // Other settings
 app.set("view engine", "ejs");
@@ -25,9 +25,9 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
 
 // Routes
-app.use("/", require("./routes/home"));
+app.use("/", require("./routes/main"));
 
 // Port setting
-app.listen(3001, function(){
-  console.log("server on! http://localhost:"+port);
+app.listen(3003, function(){
+  console.log("server on! http://localhost:"); //+port
 });
